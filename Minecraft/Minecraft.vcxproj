@@ -127,11 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HSDX.cpp" />
     <ClCompile Include="Minecraft.cpp" />
     <ClCompile Include="Process.cpp" />
     <ClCompile Include="Render.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Base.h" />
+    <ClInclude Include="BaseComponent.h" />
+    <ClInclude Include="HSDX.h" />
+    <ClInclude Include="BaseObject.h" />
     <ClInclude Include="Process.h" />
     <ClInclude Include="Render.h" />
   </ItemGroup>

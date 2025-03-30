@@ -1,16 +1,16 @@
 #pragma once
-class Render;
+class RenderSystem;
 class Process
 {
 public:
 	Process();
 	~Process();
 
-	void Init() { }
+	void Init();
 	void Update();
-	void Final() { }
+	void Final();
 
 private:
-	Render* m_pRenderer = nullptr;
+	RenderSystem* m_pRenderer = nullptr;
 };
 

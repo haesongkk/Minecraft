@@ -1,8 +1,4 @@
-
-
-
 #include "Process.h"
-
 int main()
 {
 	Process* pProcess = new Process;
